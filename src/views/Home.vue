@@ -127,6 +127,9 @@
 
 export default {
   name: 'Home',
+  created() {
+    document.title = "Welcome to MesailAuto";
+  }
 
 }
 </script>
@@ -320,7 +323,7 @@ img {
   transition: 0.2s;
 }
 .second-sector-img img {
-  width: 550px;
+  width: 525px;
 }
 .second-sector {
   display: flex;
@@ -336,7 +339,7 @@ img {
 }
 .second-sector-text-title-line {
   background: red;
-  width: 100%;
+  width: 95%;
   height: 7px;
   margin-top:10px;
 }
@@ -345,7 +348,7 @@ img {
   text-align: left;
 }
 .second-sector-btn {
-  border: 7px red solid;
+  border: 5px red solid;
   width: 200px;
   padding: 20px;
   font-size: 25px;
@@ -359,7 +362,8 @@ img {
   transition: 0.3s;
 }
 .third-sector-left img {
-  width: 600px;
+  width: auto;
+  max-width: 550px;
 }
 .third-sector {
   display: flex;
@@ -374,19 +378,19 @@ img {
 }
 .third-sector-left-text h3 {
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 32px;
 }
 .third-sector-left-text h1 {
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 45px;
 }
 .third-sector-right-text h3 {
   font-weight: bolder;
-  font-size: 29px;
+  font-size: 27px;
 }
 .third-sector-right-text h2 {
   font-weight: lighter;
-  font-size: 26px;
+  font-size: 24px;
 }
 .fourth-sector img {
   width: 400px;
@@ -410,7 +414,9 @@ img {
   font-weight: bolder;
 }
 .fifth-sector img {
-  width: 550px;
+  width: 100%;
+  min-width: 475px;
+  max-width: 550px;
 }
 .fifth-sector {
   display: flex;
