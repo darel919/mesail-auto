@@ -1,4 +1,5 @@
 <template>
+
   <div class="home">
 
     <div class="first-sector">
@@ -119,7 +120,7 @@
       </div>
     </div>
 
-  <h4>Made by Mesail Auto 2021</h4>
+  <h4 style="padding: 50px;margin:0;">Made by Mesail Auto 2021</h4>
   </div>
 </template>
 
@@ -296,6 +297,7 @@ img {
   width: 100%;
 }
 .first-sector-text {
+  padding-top: 100px;
   margin-left: 125px;
   position: absolute;
   color:whitesmoke;
@@ -373,8 +375,11 @@ img {
   background: whitesmoke;
   text-align: left;
 }
-.third-sector-left, .third-sector-right {
-  padding: 3%;
+.third-sector-left{
+  padding: 2%;
+}
+.third-sector-right {
+  padding: 0 0 0 2%;
 }
 .third-sector-left-text h3 {
   font-weight: lighter;
@@ -414,7 +419,7 @@ img {
   font-weight: bolder;
 }
 .fifth-sector img {
-  padding-top:50px;
+  padding-top:25px;
   width: 100%;
   min-width: 475px;
   max-width: 550px;
@@ -428,26 +433,29 @@ img {
   background-blend-mode:darken;
   background: url('https://mesailauto.com/img/P1330042%202.61aec082.png'), rgba(0, 0, 0, 0.8);
   text-align: left;
-  padding: 50px 5% 50px 5%;
+  padding: 100px 3% 100px 3%;
 }
 .fifth-sector-left-line2 {
   display: flex;
 }
 .fifth-sector h1{
- font-size: 80px;
+ font-size: 78px;
  margin:0;
+}
+.fifth-sector-left {
+  padding: 2%;
 }
 .fifth-sector-right {
   /* width: 50%; */
-  padding: 100px;
+  padding: 2%;
 }
 .fifth-sector-right h2 {
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 33px;
 }
 .fifth-sector-right h3 {
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 18px;
 }
 .sixth-sector-right iframe {
   width: 45vw;

@@ -28,9 +28,10 @@
 @media screen and (min-width: 900px) {
 .navbar {
     padding: 15px 0% 15px 9%;
-    margin-top: 45px;
+    margin-top: 40px;
     position: sticky;
-    margin-bottom: -145px;
+
+    margin-bottom: -140px;
     /* width: 100%; */
 }
 .navbar-navigation {
@@ -52,16 +53,17 @@
   font-weight: lighter;
   color: white;
   font-size: 21px;
-   transition: all 0.5s;
+   transition: 0.5s;
 }
 .navbar-navigation h2:hover {
     font-weight: bolder;
-    transition: all 0.5s;
+    /* transition: 0.5s; */
+    border-bottom: 3px solid red;
 }
 .navbar-navigation .router-link-exact-active h2{
     padding-bottom: 5px;
     font-weight: bolder;
   border-bottom: 3px solid red;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 </style>
