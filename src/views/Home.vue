@@ -414,6 +414,7 @@ img {
   font-weight: bolder;
 }
 .fifth-sector img {
+  padding-top:50px;
   width: 100%;
   min-width: 475px;
   max-width: 550px;
