@@ -419,7 +419,7 @@ img {
   color:white;
   background-size: cover;
   background-blend-mode:darken;
-  background: url('http://localhost:8080/img/P1330042%202.c36715b4.png'), rgba(0, 0, 0, 0.8);
+  background: url('https://mesailauto.com/img/P1330042%202.c36715b4.png'), rgba(0, 0, 0, 0.8);
   text-align: left;
   padding: 50px 5% 50px 5%;
 }
