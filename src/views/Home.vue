@@ -12,7 +12,7 @@
       <img src="@/../public/img/Group 5 (2).png"/>
     </div>
 
-    <div class="second-sector">
+    <div id="about" class="second-sector">
       <div class="second-sector-img">
         <img src="@/../public/img/Group 5.png"/>
       </div>
@@ -158,7 +158,7 @@ export default {
   font-weight:lighter;
 }
 .first-sector-btn {
-  background: red;
+  background: #CA2026;
   margin: 30px auto 0 auto;
   padding: 15px 20px 15px 20px;
   width: 175px;
@@ -168,7 +168,7 @@ export default {
 }
 .first-sector-btn:hover {
   background: white;
-  color:Red;
+  color:#CA2026;
   transition: 0.2s;
 }
 .app {
@@ -195,7 +195,7 @@ img {
   justify-content: space-between;
 }
 .second-sector-text-title-line {
-  background: red;
+  background: #CA2026;
   width: 55%;
   height: 7px;
 }
@@ -204,7 +204,7 @@ img {
   text-align: left;
 }
 .second-sector-btn {
-  border: 5px red solid;
+  border: 5px #CA2026 solid;
   width: 150px;
   padding: 10px;
   font-size: 20px;
@@ -213,7 +213,7 @@ img {
   transition:0.3s;
 }
 .second-sector-btn:hover {
-  background: red;
+  background: #CA2026;
   color:whitesmoke;
   transition: 0.3s;
 }
@@ -311,7 +311,7 @@ img {
   font-weight:lighter;
 }
 .first-sector-btn {
-  background: red;
+  background: #CA2026;
   margin-top: 40px;
   padding: 20px 30px 20px 30px;
   width: 180px;
@@ -321,7 +321,7 @@ img {
 }
 .first-sector-btn:hover {
   background: white;
-  color:Red;
+  color:#CA2026;
   transition: 0.2s;
 }
 .second-sector-img img {
@@ -340,7 +340,7 @@ img {
   justify-content: space-between;
 }
 .second-sector-text-title-line {
-  background: red;
+  background: #CA2026;
   width: 95%;
   height: 7px;
   margin-top:10px;
@@ -350,7 +350,7 @@ img {
   text-align: left;
 }
 .second-sector-btn {
-  border: 5px red solid;
+  border: 5px #CA2026 solid;
   width: 200px;
   padding: 20px;
   font-size: 25px;
@@ -359,7 +359,7 @@ img {
   transition:0.3s;
 }
 .second-sector-btn:hover {
-  background: red;
+  background: #CA2026;
   color:whitesmoke;
   transition: 0.3s;
 }

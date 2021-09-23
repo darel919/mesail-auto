@@ -23,8 +23,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
+  
 }
 body, html, #app {
+  scroll-behavior: smooth;
   margin:0;
   padding:0;
   background:rgb(20, 20, 20);

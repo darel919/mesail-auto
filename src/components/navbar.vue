@@ -5,7 +5,7 @@
     </div>
     <div class="navbar-navigation">
         <router-link to ="/"><h2>Home</h2></router-link>
-        <router-link to ="/about"><h2>About Us</h2></router-link>
+        <a href="#about"><h2>About Us</h2></a>
         <router-link to ="/gallery"><h2>Gallery</h2></router-link>
         <router-link to ="/contacts"><h2>Contacts</h2></router-link>
     </div>
