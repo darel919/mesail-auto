@@ -5,7 +5,9 @@
     </div>
     <div class="navbar-navigation">
         <router-link to ="/"><h2>Home</h2></router-link>
+        <!-- <router-link to="/"> -->
         <a href="#about"><h2>About Us</h2></a>
+        <!-- </router-link> -->
         <router-link to ="/gallery"><h2>Gallery</h2></router-link>
         <router-link to ="/contacts"><h2>Contacts</h2></router-link>
     </div>
@@ -53,11 +55,10 @@
   font-weight: lighter;
   color: white;
   font-size: 21px;
-   transition: 0.5s;
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
 }
 .navbar-navigation h2:hover {
-    font-weight: bolder;
-    /* transition: 0.5s; */
     border-bottom: 3px solid red;
 }
 .navbar-navigation .router-link-exact-active h2{

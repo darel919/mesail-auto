@@ -16,7 +16,10 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
-
+img {
+    user-select: none;
+    pointer-events: none;
+}
 #app {
   font-family: Montserrat;
   -webkit-font-smoothing: antialiased;

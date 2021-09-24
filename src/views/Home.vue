@@ -12,22 +12,22 @@
       <img src="@/../public/img/Group 5 (2).png"/>
     </div>
 
-    <div id="about" class="second-sector">
-      <div class="second-sector-img">
+    <div class="second-sector">
+      <div class="second-sector-img" id="about">
         <img src="@/../public/img/Group 5.png"/>
       </div>
-      <div class="second-sector-text">
+      <div class="second-sector-text" >
         <div class="second-sector-text-title">
           <h1>About Us</h1>
           <div class="second-sector-text-title-line"></div>
         </div>
         <h2>We are a trusted car & motorcycle dealership
         run by a group of young and passionate automotive enthusiasts, We specializes in providing Great Quality ready to use vehicles, dedicated to help indonesian people who needs an Affordable and Reliable Cars & Motorcycles for their daily Commuter.</h2>
-        <router-link to="/about"> 
+        <!-- <router-link to="/about">  -->
           <div class="second-sector-btn">
             Learn More
           </div>
-        </router-link>
+        <!-- </router-link> -->
       </div>
     </div>
 
